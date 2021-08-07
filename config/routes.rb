@@ -49,5 +49,7 @@ devise_scope :customer do
     resources :overseas_areas, only: [:index, :edit, :update, :create]
     
   end
+  
+  route作成
    
 end
